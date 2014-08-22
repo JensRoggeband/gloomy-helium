@@ -33,9 +33,9 @@ function love.draw()
 	love.graphics.scale(love.window.getWidth() / config.window.width, love.window.getHeight() / config.window.height)
 
 	-- Draw the current FPS on the top right.
-    love.graphics.print(love.timer.getFPS(), love.window.getWidth() - 20, 0)
+	love.graphics.print(love.timer.getFPS(), love.window.getWidth() - 20, 0)
 
-    -- Draw the current state.
+	-- Draw the current state.
 	currentState.draw()
 end
 
