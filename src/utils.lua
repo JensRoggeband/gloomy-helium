@@ -1,10 +1,9 @@
-utils = {}
-
-function utils.load()
-end
+local utils = {}
 
 function utils.debug(msg)
-	if DEBUG then
+	if _debug then
 		print("[DEBUG][" .. os.date() .. "] " .. msg)
 	end
 end
+
+return utils
