@@ -1,4 +1,4 @@
-config = {}
+_config = {}
 
 function love.conf(t)
     t.identity = nil                   -- The name of the save directory (string)
@@ -35,5 +35,5 @@ function love.conf(t)
     t.modules.timer = true             -- Enable the timer module (boolean)
     t.modules.window = true            -- Enable the window module (boolean)
     t.modules.thread = true            -- Enable the thread module (boolean)
-    config = t
+    _config = t
 end
